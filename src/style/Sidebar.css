@@ -1,0 +1,16 @@
+.Sidebar{
+    box-sizing: content-box;
+    margin-top: 20px;
+    position: sticky;
+    width: 25%;
+    
+    
+}
+.Sidebar:hover{
+ border-right:gray ;
+}
+.sidebar_dropdown{
+    display: flex;
+    align-items: center;
+    padding: 5px 20px
+}

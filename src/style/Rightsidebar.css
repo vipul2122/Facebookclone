@@ -1,0 +1,30 @@
+.Widget{
+    
+   position: sticky; 
+    width: 25%;
+}
+.Widget__header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.widget__bodyoptions{
+    display: flex;
+    align-items: center;
+}
+.widget__bodyoptions h4{
+    font-weight :400;
+    font-size: small;
+}
+.Widget_contact{
+    border-top: 1px solid lightgray;
+}
+.Widget_contact_header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Widget_contacticon{
+    display: flex;
+    gap: 10px;
+}

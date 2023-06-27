@@ -1,0 +1,107 @@
+.MessageSender{
+background-color: white;
+border-radius: 10px;
+margin-top: 10px;
+box-shadow: 4px 2px 10px #ccc;
+align-items: center;
+}
+.MessageSender_upper{
+    display: flex;
+    align-items: center;
+   padding-top: 15px ;
+   padding-left: 5px;
+   padding-right: 10px;
+    gap: 15px;
+    
+
+}
+.MessageSender_upper input{
+    display: flex;
+    height: 40px;
+    width: 100%;
+    margin-left: 10px;
+    border-radius: 20px;
+    border-style: none;
+    justify-content: center;
+    outline: none;
+    background-color: whitesmoke;
+    
+}
+.MessageSender_lower{
+    margin-top: 1px;
+    display: flex;
+    justify-content: space-between;
+    padding: 1px;
+    border-top: 1px solid lightgray;
+    padding-left: 5px;
+    padding-right: 10px;
+}
+
+.Messangeroption{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.Messangeroption:hover{
+    background-color: whitesmoke;
+    border-radius: 15px;
+    
+    
+}
+.modal_pop{
+  top:50%;
+  background-color:#fff; 
+  width:500px;
+   margin: 0px auto;
+   position: relative;
+   transform: translateY(-50%);
+   padding: 10px;
+   border-radius: 10px;
+}
+.modalHeading{
+    text-align: centre;
+    border-bottom: 1px solid lightgray;
+    height: 40px;
+}
+.modalHeading .MuiIconButton-root{
+    position: absolute;
+    top:0px;
+    right: 5px;
+}
+.modalHearder__top{
+    display: flex;
+    padding: 15px 0px;
+    align-items: center;
+}
+.modalHearder__top h4{
+    margin-left: 10px;
+}
+.modalBody textarea{
+    width: 100%;
+    min-height: 100px;
+    border: 0px;
+    font-size: 25px;
+    outline: none;
+    padding-top: 10px;
+    letter-spacing: 1px;
+}
+.modalfooter{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 0px 10px;
+
+}
+.post__submit{
+    width: 100%;
+    background-color: #2391fa;
+    padding: 10px 20px;
+    color:#fff;
+    letter-spacing: 2px;
+    
+}
